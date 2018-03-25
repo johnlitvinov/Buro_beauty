@@ -13,6 +13,9 @@
 		522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */; };
 		522A8D0D2066469800A3A3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0C2066469800A3A3AB /* Assets.xcassets */; };
 		522A8D102066469800A3A3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */; };
+		52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C332067C70F00073F16 /* ServicesTableViewController.swift */; };
+		52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C352067C72800073F16 /* ServicesTableViewCell.swift */; };
+		52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C372067C74500073F16 /* ServicesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		522A8D0C2066469800A3A3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522A8D0F2066469800A3A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522A8D112066469800A3A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D92C332067C70F00073F16 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		52D92C352067C72800073F16 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		52D92C372067C74500073F16 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			children = (
 				522A8D022066469800A3A3AB /* AppDelegate.swift */,
 				522A8D042066469800A3A3AB /* ViewController.swift */,
+				52D92C322067C6BE00073F16 /* Services */,
 				522A8D062066469800A3A3AB /* Main.storyboard */,
 				522A8D0C2066469800A3A3AB /* Assets.xcassets */,
 				522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */,
@@ -65,6 +72,16 @@
 				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
 			);
 			path = Buro_beauty;
+			sourceTree = "<group>";
+		};
+		52D92C322067C6BE00073F16 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52D92C332067C70F00073F16 /* ServicesTableViewController.swift */,
+				52D92C352067C72800073F16 /* ServicesTableViewCell.swift */,
+				52D92C372067C74500073F16 /* ServicesViewController.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */,
+				52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */,
 				522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */,
+				52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */,
 				522A8D052066469800A3A3AB /* ViewController.swift in Sources */,
 				522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */,
 			);
