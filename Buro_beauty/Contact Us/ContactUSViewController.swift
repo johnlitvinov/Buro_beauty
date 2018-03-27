@@ -20,17 +20,39 @@ class ContactUSViewController: UIViewController {
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var button4: UIButton!
     
-
+//    кординатам бюро
+    var latitude = 53.93281245474775
+    var longitude = 27.65491760439204
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        button1.layer.cornerRadius = 22
+//        устанавливает радиус углов имеющихся кнопок
+         button1.layer.cornerRadius = 22
          button2.layer.cornerRadius = 22
          button3.layer.cornerRadius = 22
          button4.layer.cornerRadius = 22
-        // Do any additional setup after loading the view.
+       
+        
+        
+//        приближение карты по горизантали и вертикали к бюро
+        let screenSizeOfMap = MKCoordinateSpanMake(0.022, 0.022)
+        let region = MKCoordinateRegion(center:CLLocationCoordinate2D(latitude: latitude, longitude: longitude), span: screenSizeOfMap)
+        mapView.setRegion(region, animated: true)
+        
+        
+        
+//        установка точки обозначения бюро на карте
+        let pinLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
+        let pinAnnatation = MKPointAnnotation()
+        pinAnnatation.coordinate = pinLocation
+        pinAnnatation.title = "@Buro_beauty"
+        pinAnnatation.subtitle = "Minsk"
+        self.mapView.addAnnotation(pinAnnatation)
+        
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -38,6 +60,24 @@ class ContactUSViewController: UIViewController {
     }
     
 
+    
+//    присоединили кнопку и сделали переход на навигацию 
+    @IBAction func directions(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "http:maps.apple.com/maps?daddr=\(latitude),\(longitude)")!, options:[:], completionHandler: nil)
+    }
+    
+    
+    
+//    сделать звонок
+    @IBAction func callUs(_ sender: Any) {
+    
+//        UIApplication.shared.open(URL(string: " tel:// 296601229")!, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

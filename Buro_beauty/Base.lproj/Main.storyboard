@@ -76,6 +76,9 @@
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Directions"/>
+                                        <connections>
+                                            <action selector="directions:" destination="2mE-kF-ug3" eventType="touchUpInside" id="hzI-nr-Wwx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yp3-Gv-5Sr">
                                         <rect key="frame" x="0.0" y="92" width="343" height="36"/>
@@ -83,6 +86,9 @@
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Call Us"/>
+                                        <connections>
+                                            <action selector="callUs:" destination="2mE-kF-ug3" eventType="touchUpInside" id="MUd-54-7gC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npx-yN-1hz">
                                         <rect key="frame" x="0.0" y="138" width="343" height="36"/>
@@ -115,7 +121,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Contact Us " id="xSt-TX-Uj1"/>
                     <connections>
-                        <outlet property="button1" destination="xeR-tf-WZd" id="vmB-H1-HzJ"/>
+                        <outlet property="button1" destination="xeR-tf-WZd" id="YZW-h8-0yn"/>
                         <outlet property="button2" destination="Yp3-Gv-5Sr" id="DNG-XB-3m2"/>
                         <outlet property="button3" destination="Npx-yN-1hz" id="tGX-uB-l3c"/>
                         <outlet property="button4" destination="7LH-uD-adA" id="ZKe-rt-GyY"/>
