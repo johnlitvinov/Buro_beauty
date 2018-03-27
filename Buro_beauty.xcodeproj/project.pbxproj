@@ -13,6 +13,8 @@
 		522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */; };
 		522A8D0D2066469800A3A3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0C2066469800A3A3AB /* Assets.xcassets */; };
 		522A8D102066469800A3A3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */; };
+		52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */; };
+		52B2AF25206A42410088B67E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2AF24206A42410088B67E /* MapKit.framework */; };
 		52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C332067C70F00073F16 /* ServicesTableViewController.swift */; };
 		52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C352067C72800073F16 /* ServicesTableViewCell.swift */; };
 		52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C372067C74500073F16 /* ServicesViewController.swift */; };
@@ -27,6 +29,8 @@
 		522A8D0C2066469800A3A3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522A8D0F2066469800A3A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522A8D112066469800A3A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
+		52B2AF24206A42410088B67E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		52D92C332067C70F00073F16 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		52D92C352067C72800073F16 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
 		52D92C372067C74500073F16 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B2AF25206A42410088B67E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +53,7 @@
 			children = (
 				522A8D012066469800A3A3AB /* Buro_beauty */,
 				522A8D002066469800A3A3AB /* Products */,
+				52B2AF23206A42410088B67E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +70,7 @@
 			children = (
 				522A8D022066469800A3A3AB /* AppDelegate.swift */,
 				522A8D042066469800A3A3AB /* ViewController.swift */,
+				52B2AF20206A3ED80088B67E /* Contact Us */,
 				52D92C322067C6BE00073F16 /* Services */,
 				522A8D062066469800A3A3AB /* Main.storyboard */,
 				522A8D0C2066469800A3A3AB /* Assets.xcassets */,
@@ -72,6 +79,22 @@
 				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
 			);
 			path = Buro_beauty;
+			sourceTree = "<group>";
+		};
+		52B2AF20206A3ED80088B67E /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		52B2AF23206A42410088B67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B2AF24206A42410088B67E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		52D92C322067C6BE00073F16 /* Services */ = {
@@ -117,6 +140,11 @@
 					522A8CFE2066469800A3A3AB = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -157,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */,
+				52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */,
 				52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */,
 				522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */,
 				52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */,
