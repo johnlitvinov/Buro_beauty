@@ -66,24 +66,20 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
         
         messageCompose.setToRecipients(recipient)
         messageCompose.setSubject(nameField.text! + "Email message from my app @Buro_beauty")
-        messageCompose.setMessageBody( """
+        messageCompose.setMessageBody("""
                           Name: \(nameField.text!)
                           Email: \(emailField.text!)
                           Message: \(messageField.text!)
                           """, isHTML: false)
 
-
-        
         self.present(messageCompose, animated: true, completion: nil)
         
-    
     }
 
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
        
-        self.resignFirstResponder()
-        
-        
+        self.dismiss(animated: true, completion: nil)
+    
     }
 
 }

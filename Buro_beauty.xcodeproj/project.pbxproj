@@ -20,6 +20,8 @@
 		52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C352067C72800073F16 /* ServicesTableViewCell.swift */; };
 		52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C372067C74500073F16 /* ServicesViewController.swift */; };
 		52EF12A8206CC92A008B589B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EF12A7206CC92A008B589B /* MessageUI.framework */; };
+		52EF12AA206CDECB008B589B /* PortfolioCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */; };
+		52EF12AC206CDF09008B589B /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		52D92C352067C72800073F16 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
 		52D92C372067C74500073F16 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		52EF12A7206CC92A008B589B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
+		52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,7 @@
 			children = (
 				522A8D022066469800A3A3AB /* AppDelegate.swift */,
 				522A8D042066469800A3A3AB /* ViewController.swift */,
-				529C8F6C206AC58000634BEC /* New Group */,
+				529C8F6C206AC58000634BEC /* Portfolio */,
 				52B2AF20206A3ED80088B67E /* Contact Us */,
 				52D92C322067C6BE00073F16 /* Services */,
 				522A8D062066469800A3A3AB /* Main.storyboard */,
@@ -87,11 +91,13 @@
 			path = Buro_beauty;
 			sourceTree = "<group>";
 		};
-		529C8F6C206AC58000634BEC /* New Group */ = {
+		529C8F6C206AC58000634BEC /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */,
+				52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */,
 			);
-			path = "New Group";
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 		52B2AF20206A3ED80088B67E /* Contact Us */ = {
@@ -199,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EF12AA206CDECB008B589B /* PortfolioCollectionViewController.swift in Sources */,
 				52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */,
 				52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */,
 				52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */,
@@ -207,6 +214,7 @@
 				52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */,
 				522A8D052066469800A3A3AB /* ViewController.swift in Sources */,
 				522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */,
+				52EF12AC206CDF09008B589B /* PortfolioCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
