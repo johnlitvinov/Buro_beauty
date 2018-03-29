@@ -21,8 +21,8 @@ class ContactUSViewController: UIViewController {
     @IBOutlet weak var button4: UIButton!
     
 //    кординатам бюро
-    var latitude = 53.93281245474775
-    var longitude = 27.65491760439204
+    var latitude = 53.932746
+    var longitude = 27.654987
     
     
     override func viewDidLoad() {
@@ -47,8 +47,13 @@ class ContactUSViewController: UIViewController {
         let pinLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
         let pinAnnatation = MKPointAnnotation()
         pinAnnatation.coordinate = pinLocation
-        pinAnnatation.title = "@Buro_beauty"
-        pinAnnatation.subtitle = "Minsk"
+        pinAnnatation.title = """
+        @Buro_beauty
+        Nail
+        Brow
+        Eyelashes
+        """
+        pinAnnatation.subtitle = "Street K.Turovskogo 6, room 146 Minsk, Belarus"
         self.mapView.addAnnotation(pinAnnatation)
         
     }
@@ -64,15 +69,17 @@ class ContactUSViewController: UIViewController {
 //    присоединили кнопку и сделали переход на навигацию 
     @IBAction func directions(_ sender: Any) {
         
-        UIApplication.shared.open(URL(string: "http:maps.apple.com/maps?daddr=\(latitude),\(longitude)")!, options:[:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "http:maps.google.com/maps?daddr=\(latitude),\(longitude)")!, options:[:], completionHandler: nil)
     }
     
     
     
 //    сделать звонок
     @IBAction func callUs(_ sender: Any) {
-    
-//        UIApplication.shared.open(URL(string: " tel:// 296601229")!, options: [:], completionHandler: nil)
+        
+        
+//      UIApplication.shared.open(URL(string: " tel:// 296601229")!, options: [:], completionHandler: nil)
+   
     }
     
     
