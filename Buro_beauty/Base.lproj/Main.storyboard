@@ -238,6 +238,7 @@
                         <outlet property="button3" destination="WCQ-NU-Med" id="jLC-qr-1mT"/>
                         <outlet property="button4" destination="Y4P-Wg-756" id="Prh-8D-FgH"/>
                         <outlet property="button5" destination="wWr-aE-b0q" id="6fT-XK-cue"/>
+                        <outlet property="homebackgroundImage" destination="RLE-Dt-M53" id="Skq-vj-OrZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -411,29 +412,27 @@
         <!--About Us-->
         <scene sceneID="lZN-z2-sHF">
             <objects>
-                <viewController id="ITL-ux-4S3" sceneMemberID="viewController">
+                <viewController id="ITL-ux-4S3" customClass="AboutUsViewController" customModule="Buro_beauty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qOG-3z-zC3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Foto About Us" translatesAutoresizingMaskIntoConstraints="NO" id="3fB-g7-NAQ">
-                                <rect key="frame" x="16" y="44" width="343" height="685"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foto About Us" translatesAutoresizingMaskIntoConstraints="NO" id="aBv-yo-M9O">
+                                <rect key="frame" x="-32" y="-68" width="438" height="885"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="3fB-g7-NAQ" firstAttribute="bottom" secondItem="K0c-tf-8lZ" secondAttribute="bottom" id="2hQ-8s-F0b"/>
-                            <constraint firstItem="3fB-g7-NAQ" firstAttribute="top" secondItem="K0c-tf-8lZ" secondAttribute="top" id="3EI-j3-zQz"/>
-                            <constraint firstItem="3fB-g7-NAQ" firstAttribute="leading" secondItem="K0c-tf-8lZ" secondAttribute="leading" constant="16" id="BGF-Bn-6mU"/>
-                            <constraint firstItem="K0c-tf-8lZ" firstAttribute="trailing" secondItem="3fB-g7-NAQ" secondAttribute="trailing" constant="16" id="MMx-HJ-IXl"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="K0c-tf-8lZ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About Us" image="Tab2" id="6Bx-sD-Avx"/>
+                    <connections>
+                        <outlet property="backgroundImage" destination="aBv-yo-M9O" id="CGA-rn-5sG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rxk-cl-2x5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="718.9655172413793"/>
+            <point key="canvasLocation" x="997.60000000000002" y="691.62561576354688"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="kQr-Wp-ZDJ">

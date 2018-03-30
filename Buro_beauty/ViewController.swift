@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var button5: UIButton!
     
     
+    @IBOutlet weak var homebackgroundImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +30,30 @@ class ViewController: UIViewController {
         button4.layer.cornerRadius = 22
         button5.layer.cornerRadius = 22
         
+        paralax(toView: homebackgroundImage, magnitude: 22 )
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func paralax(toView view: UIView, magnitude: Float) {
+        
+        let xMotion = UIInterpolatingMotionEffect(keyPath: "center.x" , type: .tiltAlongHorizontalAxis)
+        xMotion.minimumRelativeValue = -magnitude
+        xMotion.maximumRelativeValue = magnitude
+        
+        let yMotion = UIInterpolatingMotionEffect(keyPath: "center.y" , type: .tiltAlongHorizontalAxis)
+        
+        yMotion.minimumRelativeValue = -magnitude
+        yMotion.maximumRelativeValue = magnitude
+        
+        
+        let group = UIMotionEffectGroup()
+        group.motionEffects = [xMotion, yMotion]
+        view.addMotionEffect(group)
+    
     }
+    
+    
 
     @IBAction func services(_ sender: Any) {
     self.tabBarController?.selectedIndex = 2

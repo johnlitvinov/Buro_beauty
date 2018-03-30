@@ -22,6 +22,7 @@
 		52EF12A8206CC92A008B589B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EF12A7206CC92A008B589B /* MessageUI.framework */; };
 		52EF12AA206CDECB008B589B /* PortfolioCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */; };
 		52EF12AC206CDF09008B589B /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */; };
+		52EF12D0206E30A2008B589B /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12CF206E30A2008B589B /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		52EF12A7206CC92A008B589B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
 		52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
+		52EF12CF206E30A2008B589B /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				522A8D022066469800A3A3AB /* AppDelegate.swift */,
 				522A8D042066469800A3A3AB /* ViewController.swift */,
+				52EF12CE206E2FF5008B589B /* About Us */,
 				529C8F6C206AC58000634BEC /* Portfolio */,
 				52B2AF20206A3ED80088B67E /* Contact Us */,
 				52D92C322067C6BE00073F16 /* Services */,
@@ -126,6 +129,14 @@
 				52D92C372067C74500073F16 /* ServicesViewController.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		52EF12CE206E2FF5008B589B /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				52EF12CF206E30A2008B589B /* AboutUsViewController.swift */,
+			);
+			path = "About Us";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */,
 				522A8D052066469800A3A3AB /* ViewController.swift in Sources */,
 				522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */,
+				52EF12D0206E30A2008B589B /* AboutUsViewController.swift in Sources */,
 				52EF12AC206CDF09008B589B /* PortfolioCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
