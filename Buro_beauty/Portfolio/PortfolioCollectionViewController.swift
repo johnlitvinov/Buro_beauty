@@ -59,7 +59,7 @@ class PortfolioCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! PortfolioCollectionViewCell
-    
+        cell.cellImage.layer.cornerRadius = 12
         cell.cellImage.image = UIImage(named: imageList[indexPath.row])
         // Configure the cell
     
@@ -97,4 +97,4 @@ class PortfolioCollectionViewController: UICollectionViewController {
     }
     */
 
-}
+} //end class

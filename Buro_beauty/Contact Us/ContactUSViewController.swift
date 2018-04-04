@@ -20,7 +20,7 @@ class ContactUSViewController: UIViewController {
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var button4: UIButton!
     
-//    кординатам бюро
+//    кординаты Buro_beauty
     var latitude = 53.932746
     var longitude = 27.654987
     
@@ -36,14 +36,14 @@ class ContactUSViewController: UIViewController {
        
         
         
-//        приближение карты по горизантали и вертикали к бюро
+//        маштаб на карте
         let screenSizeOfMap = MKCoordinateSpanMake(0.022, 0.022)
         let region = MKCoordinateRegion(center:CLLocationCoordinate2D(latitude: latitude, longitude: longitude), span: screenSizeOfMap)
         mapView.setRegion(region, animated: true)
         
         
         
-//        установка точки обозначения бюро на карте
+//        установка точки обозначения бюро на карте с надписями
         let pinLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
         let pinAnnatation = MKPointAnnotation()
         pinAnnatation.coordinate = pinLocation
@@ -65,34 +65,19 @@ class ContactUSViewController: UIViewController {
     }
     
 
-    
-//    присоединили кнопку и сделали переход на навигацию 
+//    присоединили кнопку и сделали переход к навигатору гугл мэмпс  для определения расстояния
     @IBAction func directions(_ sender: Any) {
         
         UIApplication.shared.open(URL(string: "http:maps.google.com/maps?daddr=\(latitude),\(longitude)")!, options:[:], completionHandler: nil)
     }
     
     
-    
-//    сделать звонок
+//    связаться с бюро
     @IBAction func callUs(_ sender: Any) {
         
-        
-//      UIApplication.shared.open(URL(string: " tel:// 296601229")!, options: [:], completionHandler: nil)
+        UIApplication.shared.open(URL(string: "tel://+375296591807")!, options: [:], completionHandler: nil)
+    }
+
    
-    }
-    
-    
-    
-    
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
+}  //end class

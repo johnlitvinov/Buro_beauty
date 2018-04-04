@@ -1,22 +1,18 @@
 //
-//  ServicesTableViewCell.swift
+//  SocialLinkTableViewCell.swift
 //  Buro_beauty
 //
-//  Created by Ivan Litvinov on 3/25/18.
+//  Created by Ivan Litvinov on 4/3/18.
 //  Copyright © 2018 Ivan Litvinov. All rights reserved.
 //
 
 import UIKit
 
-class ServicesTableViewCell: UITableViewCell {
-    
-    
-    
+class SocialLinkTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var cellTitle: UILabel!
     
     
-    
+    @IBOutlet weak var cellImage: UIImageView!
     
     
     
@@ -31,4 +27,4 @@ class ServicesTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-} //end class
+}

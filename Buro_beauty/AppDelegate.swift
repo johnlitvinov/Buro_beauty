@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import MessageUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -90,5 +90,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
-}
-
+} //end class

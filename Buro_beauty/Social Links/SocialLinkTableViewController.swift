@@ -1,20 +1,17 @@
 //
-//  ServicesTableViewController.swift
+//  SocialLinkTableViewController.swift
 //  Buro_beauty
 //
-//  Created by Ivan Litvinov on 3/25/18.
+//  Created by Ivan Litvinov on 4/3/18.
 //  Copyright © 2018 Ivan Litvinov. All rights reserved.
 //
 
 import UIKit
 
-class ServicesTableViewController: UITableViewController {
+class SocialLinkTableViewController: UITableViewController {
 
     
-    
-    var serviceList = ["Sevice 1", "Service 2","Service 3","Service 4","Service 5","Service 6","Service 7","Service 8","Service 9","Service 10"]
-    
-    
+    var socialImageList = ["Insta_icon_logo", "Relax_icon"]
     
     
     
@@ -42,27 +39,21 @@ class ServicesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return serviceList.count
+        return socialImageList.count
     }
 
-   
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ServicesTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SocialLinkTableViewCell
 
         // Configure the cell...
 
-        
-        cell.cellTitle.text = serviceList[indexPath.row]
+        cell.cellImage.image = UIImage(named: socialImageList[indexPath.row])
         
         return cell
     }
-    
+ 
 
-    
-    
-    
-    
-    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -108,4 +99,4 @@ class ServicesTableViewController: UITableViewController {
     }
     */
 
- } //end class
+}
