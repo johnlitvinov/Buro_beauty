@@ -29,29 +29,29 @@ class ViewController: UIViewController {
         button3.layer.cornerRadius = 22
         button4.layer.cornerRadius = 22
         button5.layer.cornerRadius = 22
-        
-        paralax(toView: homebackgroundImage, magnitude: 22 )
-        
+
+//      паралакс эффект к фото
+//      paralax(toView: homebackgroundImage, magnitude: 22 )
+
     }
 
-    
-    func paralax(toView view: UIView, magnitude: Float) {
-        
-        let xMotion = UIInterpolatingMotionEffect(keyPath: "center.x" , type: .tiltAlongHorizontalAxis)
-        xMotion.minimumRelativeValue = -magnitude
-        xMotion.maximumRelativeValue = magnitude
-        
-        let yMotion = UIInterpolatingMotionEffect(keyPath: "center.y" , type: .tiltAlongHorizontalAxis)
-        
-        yMotion.minimumRelativeValue = -magnitude
-        yMotion.maximumRelativeValue = magnitude
-        
-        
-        let group = UIMotionEffectGroup()
-        group.motionEffects = [xMotion, yMotion]
-        view.addMotionEffect(group)
-    
-    }
+//    func paralax(toView view: UIView, magnitude: Float) {
+//
+//        let xMotion = UIInterpolatingMotionEffect(keyPath: "center.x" , type: .tiltAlongHorizontalAxis)
+//        xMotion.minimumRelativeValue = -magnitude
+//        xMotion.maximumRelativeValue = magnitude
+//
+//        let yMotion = UIInterpolatingMotionEffect(keyPath: "center.y" , type: .tiltAlongHorizontalAxis)
+//
+//        yMotion.minimumRelativeValue = -magnitude
+//        yMotion.maximumRelativeValue = magnitude
+//
+//
+//        let group = UIMotionEffectGroup()
+//        group.motionEffects = [xMotion, yMotion]
+//        view.addMotionEffect(group)
+//
+//    }
     
     
 

@@ -11,9 +11,12 @@ import UIKit
 class PortfolioCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var cellImage: UIImageView!
+
     
     
+   
     
 } //end class
+
 
 

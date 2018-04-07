@@ -13,25 +13,34 @@ class AboutUsViewController: UIViewController {
     
     
     
+    
+    
+    
+    
     @IBOutlet weak var backgroundImage: UIImageView!
     
     
+    @IBOutlet weak var callUS: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    callUS.layer.cornerRadius = callUS.frame.width / 2
+   
 //    паралакс эффект
 //    paralax(toView: backgroundImage, magnitude: 50 )
-        
+    }
+    
+    @IBAction func contactUs(_ sender: Any) {
+    self.tabBarController?.selectedIndex = 4
     }
     
     
     
-//    изменение статус бара с черного на белый цвет 
-    
+//    изменение статус бара с черного на белый цвет
+   
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return.lightContent
-        
     }
    
     
