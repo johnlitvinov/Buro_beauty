@@ -39,7 +39,8 @@
 		<string>Luna.ttf</string>
 		<string>Gloss_And_Bloom.ttf</string>
 		<string>Spring In My Step.ttf</string>
-		<string>Kiona-Regular.ttf</string>
+		<string>Comfortaa-Light.ttf</string>
+		<string>GeosansLight.ttf</string>
 	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>

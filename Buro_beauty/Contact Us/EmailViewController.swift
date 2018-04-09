@@ -57,31 +57,44 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
     
     
     
+//  отправка email 
     
     @IBAction func sendEmail(_ sender: Any) {
         
-//        let messageCompose : MFMailComposeViewController = MFMailComposeViewController()
-//
-//        messageCompose.mailComposeDelegate = self
-//
-//        let recipients = ["burobeauty2017@gmail.com"]
-//
-//        messageCompose.setToRecipients(recipients)
-//        messageCompose.setSubject(nameField.text! + " Email message from my app @Buro_beauty")
-//        messageCompose.setMessageBody("""
-//                                         Name: \(nameField.text!)
-//                                         Email: \(emailField.text!)
-//                                         Message: \(messageField.text!)
-//                                         """, isHTML: false)
-//        self.present(messageCompose, animated: true, completion: nil)
-//
-//    }
-//
-//    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-//
-//        self.dismiss(animated: true, completion: nil)
+        
+        if MFMailComposeViewController.canSendMail() {
+        let messageCompose : MFMailComposeViewController = MFMailComposeViewController()
+
+        messageCompose.mailComposeDelegate = self
+
+        let recipients = ["burobeauty2017@gmail.com"]
+
+        messageCompose.setToRecipients(recipients)
+        messageCompose.setSubject(nameField.text! + " Email message from my app @Buro_beauty")
+        messageCompose.setMessageBody("""
+                                         Name: \(nameField.text!)
+                                         Email: \(emailField.text!)
+                                         Message: \(messageField.text!)
+                                         """, isHTML: false)
+        self.present(messageCompose, animated: true, completion: nil)
+
+    }else{
+    
+    let alert = UIAlertController(title: "Accounts", message: "Please log into your email account in the settings", preferredStyle: UIAlertControllerStyle.alert)
+    
+    alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+    
+    self.present(alert, animated: true, completion: nil)
+    
+        }
+    
+    }
+
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+
+        self.dismiss(animated: true, completion: nil)
     }
     
 
 }  // end class
-

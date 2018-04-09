@@ -11,12 +11,6 @@ import UIKit
 class AboutUsViewController: UIViewController {
 
     
-    
-    
-    
-    
-    
-    
     @IBOutlet weak var backgroundImage: UIImageView!
     
     
@@ -43,9 +37,6 @@ class AboutUsViewController: UIViewController {
         return.lightContent
     }
    
-    
-    
-    
     
 
 //

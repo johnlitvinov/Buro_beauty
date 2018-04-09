@@ -11,11 +11,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Avenir.ttc">
-            <string>Avenir-Heavy</string>
-        </array>
-        <array key="Spring In My Step.ttf">
-            <string>Springinmystep</string>
+        <array key="Comfortaa-Light.ttf">
+            <string>Comfortaa-Light</string>
         </array>
     </customFonts>
     <scenes>
@@ -81,21 +78,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dn9-QS-idR">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="413"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="418"/>
                             </mapView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uP4-IX-BBg">
-                                <rect key="frame" x="16" y="421" width="343" height="200"/>
+                                <rect key="frame" x="16" y="426" width="343" height="195"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Street K.Turovskogo 6, room 146 Minsk, Belarus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcA-h2-BYX">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="32"/>
-                                        <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeR-tf-WZd">
-                                        <rect key="frame" x="0.0" y="42" width="343" height="32"/>
+                                        <rect key="frame" x="0.0" y="41" width="343" height="31"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Directions"/>
                                         <connections>
@@ -103,9 +100,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yp3-Gv-5Sr">
-                                        <rect key="frame" x="0.0" y="84" width="343" height="32"/>
+                                        <rect key="frame" x="0.0" y="82" width="343" height="31"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Call Us"/>
                                         <connections>
@@ -113,9 +110,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npx-yN-1hz">
-                                        <rect key="frame" x="0.0" y="126" width="343" height="32"/>
+                                        <rect key="frame" x="0.0" y="123" width="343" height="31"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Email Us"/>
                                         <connections>
@@ -123,9 +120,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7LH-uD-adA">
-                                        <rect key="frame" x="0.0" y="168" width="343" height="32"/>
+                                        <rect key="frame" x="0.0" y="164" width="343" height="31"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Client Chat"/>
                                         <connections>
@@ -176,14 +173,15 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5I-8G-X0R">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="51"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="do8-OI-YXa">
                                                 <rect key="frame" x="0.0" y="56" width="343" height="50.666666666666657"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="textColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                 <connections>
@@ -193,12 +191,12 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-Nw-TbF">
                                                 <rect key="frame" x="0.0" y="111.66666666666666" width="343" height="51"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WZK-IZ-Vcz">
                                                 <rect key="frame" x="0.0" y="167.66666666666669" width="343" height="50.666666666666657"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
@@ -213,13 +211,14 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyp-bX-72x">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="20.333333333333332"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1j5-Dt-riV">
                                                 <rect key="frame" x="0.0" y="20.333333333333371" width="343" height="198"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <connections>
@@ -232,19 +231,19 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkG-R1-Awa">
                                 <rect key="frame" x="16" y="476.66666666666663" width="343" height="44"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="0hH-dd-Sz2"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Send Email"/>
                                 <connections>
                                     <action selector="sendEmail:" destination="nIb-0d-f9n" eventType="touchUpInside" id="o2Q-Dk-Yxx"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="HkG-R1-Awa" firstAttribute="top" secondItem="Glo-Zz-iSA" secondAttribute="bottom" constant="10" id="AVr-AX-4KJ"/>
                             <constraint firstItem="Glo-Zz-iSA" firstAttribute="leading" secondItem="Xk1-zL-AnM" secondAttribute="leading" constant="16" id="HAP-cE-xd5"/>
@@ -286,7 +285,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8F-6m-ld7">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="51"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Services"/>
                                                 <connections>
@@ -296,7 +295,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCv-gX-DDf">
                                                 <rect key="frame" x="0.0" y="61" width="343" height="51"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Portfolio"/>
                                                 <connections>
@@ -306,7 +305,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCQ-NU-Med">
                                                 <rect key="frame" x="0.0" y="121.99999999999994" width="343" height="51"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="About Us"/>
                                                 <connections>
@@ -316,7 +315,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4P-Wg-756">
                                                 <rect key="frame" x="0.0" y="182.99999999999994" width="343" height="51.333333333333343"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Contact Us"/>
                                                 <connections>
@@ -326,7 +325,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWr-aE-b0q">
                                                 <rect key="frame" x="0.0" y="244.33333333333331" width="343" height="51"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Social Links"/>
                                                 <connections>
@@ -373,7 +372,7 @@
                                 <rect key="frame" x="16" y="490" width="343" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="17"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Start Chatting"/>
                             </button>
@@ -491,7 +490,7 @@
             <objects>
                 <tableViewController id="Qn3-F9-2PT" customClass="ServicesTableViewController" customModule="Buro_beauty" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qPN-1C-8kh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -533,7 +532,7 @@
             <objects>
                 <viewController id="Bmc-wV-4Hj" customClass="ServicesViewController" customModule="Buro_beauty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XV9-Aw-fl5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="729"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aHC-Lg-dje"/>
@@ -551,15 +550,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foto About Us" translatesAutoresizingMaskIntoConstraints="NO" id="aBv-yo-M9O">
-                                <rect key="frame" x="0.0" y="47" width="375" height="574"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Foto About Us" translatesAutoresizingMaskIntoConstraints="NO" id="aBv-yo-M9O">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SF1-Bu-b7O">
+                                <rect key="frame" x="0.0" y="308" width="375" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <string key="text">BURO BEAUTY is both a nail bar and a brow bar. Here, in stylish and laconic interiors, with a cup of coffee and a pleasant conversation with the master for you will make manicure, eyelash extensions or other beauty treatments. The salon is located directly behind the shopping center DANA MALL and it will be convenient to drop in after shopping.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYx-xT-mGq">
-                                <rect key="frame" x="268" y="75" width="75" height="75"/>
+                                <rect key="frame" x="266" y="20" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="11"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="11"/>
                                 <state key="normal" title="Contact Us">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -567,15 +575,6 @@
                                     <action selector="contactUs:" destination="ITL-ux-4S3" eventType="touchUpInside" id="nr2-rT-kcE"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="SF1-Bu-b7O">
-                                <rect key="frame" x="16" y="350" width="343" height="271"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <string key="text">BURO BEAUTY is both a nail bar and a brow bar. Here, in stylish and laconic interiors, with a cup of coffee and a pleasant conversation with the master for you will make manicure, eyelash extensions or other beauty treatments. The salon is located directly behind the shopping center DANA MALL and it will be convenient to drop in after shopping.</string>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="K0c-tf-8lZ"/>
@@ -625,7 +624,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                            <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <color key="textShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -645,12 +644,12 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sWK-Ad-z5y" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Services" image="Tab3" id="Uem-5n-iJ3"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9nX-xo-Qbb">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="9nX-xo-Qbb">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                            <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
@@ -677,7 +676,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                            <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                         </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
@@ -703,7 +702,7 @@
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                            <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -727,7 +726,7 @@
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="Springinmystep" family="Spring in my step" pointSize="17"/>
+                            <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>

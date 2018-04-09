@@ -11,7 +11,7 @@ import UIKit
 class SocialLinkTableViewController: UITableViewController {
 
     
-    var socialImageList = ["Insta_icon_logo", "Relax_icon"]
+    var socialImageList = ["Insta_icon_logo"]
     
     
     

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52179D0B207B3898008B9340 /* GeosansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52179D0A207B3896008B9340 /* GeosansLight.ttf */; };
+		52179D0D207B38B5008B9340 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */; };
 		521831532070E75D0009487A /* ClientChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521831522070E75D0009487A /* ClientChatViewController.swift */; };
 		5218315520735EE00009487A /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218315420735EE00009487A /* EmailViewController.swift */; };
 		52183157207378BA0009487A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52183156207378BA0009487A /* MessageUI.framework */; };
@@ -16,10 +18,7 @@
 		522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */; };
 		522A8D0D2066469800A3A3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0C2066469800A3A3AB /* Assets.xcassets */; };
 		522A8D102066469800A3A3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */; };
-		52A0A8B42078F0270048BE91 /* Luna.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8B32078F0270048BE91 /* Luna.ttf */; };
 		52A0A8B62078F30D0048BE91 /* Spring In My Step.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */; };
-		52A0A8B82078F31B0048BE91 /* Kiona-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8B72078F3190048BE91 /* Kiona-Regular.ttf */; };
-		52A0A8BA2078F3290048BE91 /* Gloss_And_Bloom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8B92078F3270048BE91 /* Gloss_And_Bloom.ttf */; };
 		52A0A8BC2078F3420048BE91 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */; };
 		52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */; };
 		52B2AF25206A42410088B67E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2AF24206A42410088B67E /* MapKit.framework */; };
@@ -35,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52179D0A207B3896008B9340 /* GeosansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeosansLight.ttf; sourceTree = "<group>"; };
+		52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
 		521831522070E75D0009487A /* ClientChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientChatViewController.swift; sourceTree = "<group>"; };
 		5218315420735EE00009487A /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		52183156207378BA0009487A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -46,10 +47,7 @@
 		522A8D0C2066469800A3A3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522A8D0F2066469800A3A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522A8D112066469800A3A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52A0A8B32078F0270048BE91 /* Luna.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Luna.ttf; sourceTree = "<group>"; };
 		52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spring In My Step.ttf"; sourceTree = "<group>"; };
-		52A0A8B72078F3190048BE91 /* Kiona-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kiona-Regular.ttf"; sourceTree = "<group>"; };
-		52A0A8B92078F3270048BE91 /* Gloss_And_Bloom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gloss_And_Bloom.ttf; sourceTree = "<group>"; };
 		52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
 		52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
 		52B2AF24206A42410088B67E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -110,11 +108,10 @@
 				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
 				522A8D112066469800A3A3AB /* Info.plist */,
 				522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */,
-				52A0A8B32078F0270048BE91 /* Luna.ttf */,
 				52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */,
-				52A0A8B72078F3190048BE91 /* Kiona-Regular.ttf */,
-				52A0A8B92078F3270048BE91 /* Gloss_And_Bloom.ttf */,
 				52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */,
+				52179D0A207B3896008B9340 /* GeosansLight.ttf */,
+				52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */,
 			);
 			path = Buro_beauty;
 			sourceTree = "<group>";
@@ -246,12 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A0A8B42078F0270048BE91 /* Luna.ttf in Resources */,
+				52179D0B207B3898008B9340 /* GeosansLight.ttf in Resources */,
 				52A0A8B62078F30D0048BE91 /* Spring In My Step.ttf in Resources */,
-				52A0A8BA2078F3290048BE91 /* Gloss_And_Bloom.ttf in Resources */,
 				522A8D102066469800A3A3AB /* LaunchScreen.storyboard in Resources */,
 				522A8D0D2066469800A3A3AB /* Assets.xcassets in Resources */,
-				52A0A8B82078F31B0048BE91 /* Kiona-Regular.ttf in Resources */,
+				52179D0D207B38B5008B9340 /* Comfortaa-Light.ttf in Resources */,
 				522A8D082066469800A3A3AB /* Main.storyboard in Resources */,
 				52A0A8BC2078F3420048BE91 /* CaviarDreams_BoldItalic.ttf in Resources */,
 			);
