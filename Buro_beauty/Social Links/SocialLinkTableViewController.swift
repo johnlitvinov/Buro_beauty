@@ -18,11 +18,13 @@ class SocialLinkTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    self.navigationItem.title = "Social Links"
+    self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+//         Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+//         self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     override func didReceiveMemoryWarning() {

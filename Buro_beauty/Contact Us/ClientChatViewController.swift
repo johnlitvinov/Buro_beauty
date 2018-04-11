@@ -10,9 +10,11 @@ import UIKit
 
 class ClientChatViewController: UIViewController {
 
-    override func viewDidLoad() {
+     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        self.navigationItem.title = "Client Chat"
         // Do any additional setup after loading the view.
     }
 

@@ -56,6 +56,9 @@ class ContactUSViewController: UIViewController {
         pinAnnatation.subtitle = "Street K.Turovskogo 6, room 146 Minsk, Belarus"
         self.mapView.addAnnotation(pinAnnatation)
         
+    
+//    
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
 

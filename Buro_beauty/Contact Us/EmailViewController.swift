@@ -26,6 +26,7 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
     nameField.layer.cornerRadius = 22
     emailField.layer.cornerRadius = 22
     messageField.layer.cornerRadius = 22
+    self.navigationItem.title = "Email Us"
     }
 
     

@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 //      паралакс эффект к фото
 //      paralax(toView: homebackgroundImage, magnitude: 22 )
-
+    self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 
 //    func paralax(toView view: UIView, magnitude: Float) {

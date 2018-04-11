@@ -21,10 +21,13 @@ class SocialLinkViewController: UIViewController, UIWebViewDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
 //    Переход на инстаграмм
         let url = URL(string: "https://www.instagram.com/buro_beauty_/")
         let request = URLRequest(url: url!)
         webView.loadRequest(request)
+        
+        self.navigationItem.title = "Instagram"
     }
     
     
@@ -45,9 +48,7 @@ class SocialLinkViewController: UIViewController, UIWebViewDelegate{
     
     
     
-    
-    
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

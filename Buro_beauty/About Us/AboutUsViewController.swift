@@ -32,11 +32,12 @@ class AboutUsViewController: UIViewController {
     
     
 //    изменение статус бара с черного на белый цвет
-   
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return.lightContent
-    }
-   
+//
+    
+//    override var preferredStatusBarStyle: UIStatusBarStyle {
+//        return.lightContent
+//    }
+//
     
 
 //

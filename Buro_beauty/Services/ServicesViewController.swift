@@ -29,6 +29,8 @@ class ServicesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+   
+        
     callUsButton.layer.cornerRadius = callUsButton.frame.width / 2
         
     self.navigationItem.title = sentData
@@ -75,7 +77,7 @@ class ServicesViewController: UIViewController {
             detailDescription.text = "Cosmetic. Craftsmen work on high-quality luxury materials and products. By the way, for home use offered professional Italian hair cosmetics Davines"
         }
         
-        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
      }
 
     override func didReceiveMemoryWarning() {
