@@ -70,7 +70,7 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
         let recipients = ["burobeauty2017@gmail.com"]
 
         messageCompose.setToRecipients(recipients)
-        messageCompose.setSubject(nameField.text! + " Email message from my app @Buro_beauty")
+        messageCompose.setSubject(nameField.text! + " Application @Buro_beauty")
         messageCompose.setMessageBody("""
                                          Name: \(nameField.text!)
                                          Email: \(emailField.text!)

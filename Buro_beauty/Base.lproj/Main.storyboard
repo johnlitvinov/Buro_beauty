@@ -14,6 +14,9 @@
         <array key="Comfortaa-Light.ttf">
             <string>Comfortaa-Light</string>
         </array>
+        <array key="GeosansLight.ttf">
+            <string>GeosansLight</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Portfolio-->
@@ -166,20 +169,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Glo-Zz-iSA">
-                                <rect key="frame" x="16" y="20" width="343" height="446.66666666666669"/>
+                                <rect key="frame" x="16" y="20" width="343" height="444"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="sZS-SW-Y7E">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="218.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="217"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5I-8G-X0R">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="51"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="50.666666666666664"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="do8-OI-YXa">
-                                                <rect key="frame" x="0.0" y="56" width="343" height="50.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="55.666666666666657" width="343" height="50.333333333333343"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -189,13 +192,13 @@
                                                 </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7X1-Nw-TbF">
-                                                <rect key="frame" x="0.0" y="111.66666666666666" width="343" height="51"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="111.00000000000001" width="343" height="50.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WZK-IZ-Vcz">
-                                                <rect key="frame" x="0.0" y="167.66666666666669" width="343" height="50.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="166.66666666666669" width="343" height="50.333333333333343"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -207,17 +210,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RbW-0o-C8T">
-                                        <rect key="frame" x="0.0" y="228.33333333333331" width="343" height="218.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="227" width="343" height="217"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyp-bX-72x">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="19"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1j5-Dt-riV">
-                                                <rect key="frame" x="0.0" y="20.333333333333371" width="343" height="198"/>
+                                                <rect key="frame" x="0.0" y="19" width="343" height="198"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -230,7 +233,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HkG-R1-Awa">
-                                <rect key="frame" x="16" y="476.66666666666663" width="343" height="44"/>
+                                <rect key="frame" x="16" y="474" width="343" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="0hH-dd-Sz2"/>
@@ -376,6 +379,34 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Start Chatting"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQJ-rH-dhU">
+                                <rect key="frame" x="16" y="20" width="343" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BNu-P8-p38">
+                                <rect key="frame" x="16" y="55" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeo-UP-6hd">
+                                <rect key="frame" x="16" y="93" width="343" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T0W-L6-Kyr">
+                                <rect key="frame" x="16" y="128" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0Ze-2e-IJ2"/>
@@ -383,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b0b-Qa-f5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2871" y="-621"/>
+            <point key="canvasLocation" x="2869.5999999999999" y="-621.42857142857144"/>
         </scene>
         <!--Social Link Table View Controller-->
         <scene sceneID="l1b-HC-0cn">
@@ -489,30 +520,38 @@
         <scene sceneID="hA3-hB-a1h">
             <objects>
                 <tableViewController id="Qn3-F9-2PT" customClass="ServicesTableViewController" customModule="Buro_beauty" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qPN-1C-8kh">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qPN-1C-8kh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" cocoaTouchSystemColor="darkTextColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="122" id="7hq-7V-quB" customClass="ServicesTableViewCell" customModule="Buro_beauty" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="122"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="200" id="7hq-7V-quB" customClass="ServicesTableViewCell" customModule="Buro_beauty" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7hq-7V-quB" id="hj0-UC-MYx" customClass="ServicesTableViewCell" customModule="Buro_beauty" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="121.66666666666667"/>
+                                <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7hq-7V-quB" id="hj0-UC-MYx" customClass="ServicesTableViewCell" customModule="Buro_beauty" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199.66666666666666"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Service 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utL-3l-xVO">
-                                            <rect key="frame" x="16" y="33" width="343" height="46"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Price List" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="90" translatesAutoresizingMaskIntoConstraints="NO" id="w4g-T2-jpa">
+                                            <rect key="frame" x="0.0" y="1" width="375" height="199.66666666666666"/>
+                                            <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="40"/>
                                             <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
+                                            <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="shadowColor" white="1" alpha="0.60000002379999995" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="w4g-T2-jpa" firstAttribute="top" secondItem="hj0-UC-MYx" secondAttribute="top" id="TJc-ci-B6S"/>
+                                        <constraint firstAttribute="bottom" secondItem="w4g-T2-jpa" secondAttribute="bottom" id="gfB-w1-Obk"/>
+                                        <constraint firstAttribute="trailing" secondItem="w4g-T2-jpa" secondAttribute="trailing" id="kAB-Up-JGw"/>
+                                        <constraint firstItem="w4g-T2-jpa" firstAttribute="leading" secondItem="hj0-UC-MYx" secondAttribute="leading" id="nVl-uU-bgr"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <viewLayoutGuide key="safeArea" id="jnM-Ce-dKl"/>
                                 <connections>
-                                    <outlet property="cellTitle" destination="utL-3l-xVO" id="gn6-zh-vqc"/>
-                                    <segue destination="Bmc-wV-4Hj" kind="show" id="FaC-Wq-qrQ"/>
+                                    <outlet property="cellTitle" destination="w4g-T2-jpa" id="Jeu-aq-Skz"/>
+                                    <segue destination="Bmc-wV-4Hj" kind="show" identifier="showDetail" id="FaC-Wq-qrQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -525,7 +564,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RZ4-KX-aIb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1380" y="2164"/>
+            <point key="canvasLocation" x="1380" y="2162.0689655172414"/>
         </scene>
         <!--Services View Controller-->
         <scene sceneID="aFi-3C-IC2">
@@ -534,13 +573,50 @@
                     <view key="view" contentMode="scaleToFill" id="XV9-Aw-fl5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="F79-X7-lvc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="641"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iNV-Kg-gtS">
+                                <rect key="frame" x="16" y="464" width="343" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="GeosansLight" family="GeosansLight" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nw-2W-zjZ">
+                                <rect key="frame" x="284" y="20" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Light" family="Comfortaa" pointSize="11"/>
+                                <state key="normal" title="Contact Us">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="callUsButton:" destination="Bmc-wV-4Hj" eventType="touchUpInside" id="sTh-Ro-GeX"/>
+                                    <action selector="contactUs:" destination="ITL-ux-4S3" eventType="touchUpInside" id="0aR-u4-Kor"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F79-X7-lvc" firstAttribute="bottom" secondItem="aHC-Lg-dje" secondAttribute="bottom" id="F7d-gf-FBl"/>
+                            <constraint firstItem="F79-X7-lvc" firstAttribute="leading" secondItem="aHC-Lg-dje" secondAttribute="leading" id="I0Y-2G-N3r"/>
+                            <constraint firstItem="F79-X7-lvc" firstAttribute="top" secondItem="aHC-Lg-dje" secondAttribute="top" id="rGG-Hf-zJl"/>
+                            <constraint firstItem="F79-X7-lvc" firstAttribute="trailing" secondItem="aHC-Lg-dje" secondAttribute="trailing" id="wuh-oo-gR9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="aHC-Lg-dje"/>
                     </view>
+                    <connections>
+                        <outlet property="callUsButton" destination="6nw-2W-zjZ" id="E1d-rg-vq5"/>
+                        <outlet property="detailDescription" destination="iNV-Kg-gtS" id="B72-HN-rED"/>
+                        <outlet property="detailImage" destination="F79-X7-lvc" id="VCq-CM-Ksg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qn1-CS-UGB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2094" y="2164"/>
+            <point key="canvasLocation" x="2093.5999999999999" y="2163.5467980295566"/>
         </scene>
         <!--About Us-->
         <scene sceneID="lZN-z2-sHF">

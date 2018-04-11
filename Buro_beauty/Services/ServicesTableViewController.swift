@@ -12,7 +12,7 @@ class ServicesTableViewController: UITableViewController {
 
     
     
-    var serviceList = ["Sevice 1", "Service 2","Service 3","Service 4","Service 5","Service 6","Service 7","Service 8","Service 9","Service 10"]
+    var serviceList = ["Price List", "Manicure", "Brow", "Eyelashes", "Certificates", "Goods"]
     
     
     
@@ -40,8 +40,10 @@ class ServicesTableViewController: UITableViewController {
         return 1
     }
 
+   
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+     
         return serviceList.count
     }
 
@@ -98,14 +100,28 @@ class ServicesTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+       
+        if (segue.identifier == "showDetail"){
+            
+            let destinationVC = segue.destination as! ServicesViewController
+            
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+        
+        
+        destinationVC.sentData = serviceList[indexPath.row] as String
+                
+                
+                
+            }
+        }
+        
+        
     }
-    */
+    
 
  } //end class
