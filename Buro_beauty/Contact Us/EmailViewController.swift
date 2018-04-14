@@ -11,6 +11,7 @@ import MessageUI
 
 class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeViewControllerDelegate  {
 
+
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var messageField: UITextView!
@@ -18,10 +19,10 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
     
     
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//   задаем размеры и параметны для кнопок
     buttonSend.layer.cornerRadius = 22
     nameField.layer.cornerRadius = 22
     emailField.layer.cornerRadius = 22
@@ -37,17 +38,12 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
     }
     
     
+// применение клавиатуры 
     @IBAction func dismissKeyboard(_ sender: Any) {
-        
         self.resignFirstResponder()
-        
     }
     
-    
-    
-    
     func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-       
         if text == "\n" {
             textView.resignFirstResponder()
             return false
@@ -90,10 +86,8 @@ class EmailViewController: UIViewController, UITextViewDelegate, MFMailComposeVi
         }
     
     }
-
     
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
-
         self.dismiss(animated: true, completion: nil)
     }
     

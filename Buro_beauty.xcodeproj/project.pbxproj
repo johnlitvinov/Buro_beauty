@@ -12,6 +12,7 @@
 		521831532070E75D0009487A /* ClientChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521831522070E75D0009487A /* ClientChatViewController.swift */; };
 		5218315520735EE00009487A /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218315420735EE00009487A /* EmailViewController.swift */; };
 		52183157207378BA0009487A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52183156207378BA0009487A /* MessageUI.framework */; };
+		521B57A520820BF800BD7719 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B57A420820BF800BD7719 /* ChatRoomViewController.swift */; };
 		522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D022066469800A3A3AB /* AppDelegate.swift */; };
 		522A8D052066469800A3A3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D042066469800A3A3AB /* ViewController.swift */; };
 		522A8D082066469800A3A3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D062066469800A3A3AB /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		52E4F0F82073C37F0022A555 /* SocialLinkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F0F72073C37F0022A555 /* SocialLinkTableViewController.swift */; };
 		52E4F0FA2073C3C40022A555 /* SocialLinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F0F92073C3C40022A555 /* SocialLinkTableViewCell.swift */; };
 		52E4F0FC2073D2B70022A555 /* SocialLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F0FB2073D2B70022A555 /* SocialLinkViewController.swift */; };
+		52E6C1A6207F73ED00C014CF /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E6C1A5207F73ED00C014CF /* Messages.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		52EF12AA206CDECB008B589B /* PortfolioCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */; };
 		52EF12AC206CDF09008B589B /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */; };
 		52EF12D0206E30A2008B589B /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EF12CF206E30A2008B589B /* AboutUsViewController.swift */; };
@@ -39,6 +41,7 @@
 		521831522070E75D0009487A /* ClientChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientChatViewController.swift; sourceTree = "<group>"; };
 		5218315420735EE00009487A /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		52183156207378BA0009487A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		521B57A420820BF800BD7719 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
 		522A8CFF2066469800A3A3AB /* Buro_beauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buro_beauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A8D022066469800A3A3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522A8D042066469800A3A3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		52E4F0F72073C37F0022A555 /* SocialLinkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinkTableViewController.swift; sourceTree = "<group>"; };
 		52E4F0F92073C3C40022A555 /* SocialLinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinkTableViewCell.swift; sourceTree = "<group>"; };
 		52E4F0FB2073D2B70022A555 /* SocialLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinkViewController.swift; sourceTree = "<group>"; };
+		52E6C1A5207F73ED00C014CF /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
 		52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
 		52EF12CF206E30A2008B589B /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E6C1A6207F73ED00C014CF /* Messages.framework in Frameworks */,
 				52183157207378BA0009487A /* MessageUI.framework in Frameworks */,
 				52B2AF25206A42410088B67E /* MapKit.framework in Frameworks */,
 			);
@@ -75,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521B57A120820A4100BD7719 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				521831522070E75D0009487A /* ClientChatViewController.swift */,
+				521B57A420820BF800BD7719 /* ChatRoomViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		522A8CF62066469800A3A3AB = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +109,7 @@
 		522A8D012066469800A3A3AB /* Buro_beauty */ = {
 			isa = PBXGroup;
 			children = (
+				52DB3133207F5CE50023864D /* View */,
 				52E4F0FD2074DACD0022A555 /* Home page */,
 				522A8D022066469800A3A3AB /* AppDelegate.swift */,
 				522A8D042066469800A3A3AB /* ViewController.swift */,
@@ -103,11 +118,10 @@
 				52B2AF20206A3ED80088B67E /* Contact Us */,
 				52D92C322067C6BE00073F16 /* Services */,
 				52E4F0F62073B6240022A555 /* Social Links */,
-				522A8D062066469800A3A3AB /* Main.storyboard */,
+				52DB3132207F5C950023864D /* SupportingFiles */,
 				522A8D0C2066469800A3A3AB /* Assets.xcassets */,
 				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
 				522A8D112066469800A3A3AB /* Info.plist */,
-				522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */,
 				52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */,
 				52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */,
 				52179D0A207B3896008B9340 /* GeosansLight.ttf */,
@@ -129,8 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */,
-				521831522070E75D0009487A /* ClientChatViewController.swift */,
 				5218315420735EE00009487A /* EmailViewController.swift */,
+				521B57A120820A4100BD7719 /* Chat */,
 			);
 			path = "Contact Us";
 			sourceTree = "<group>";
@@ -138,6 +152,7 @@
 		52B2AF23206A42410088B67E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52E6C1A5207F73ED00C014CF /* Messages.framework */,
 				52183156207378BA0009487A /* MessageUI.framework */,
 				52B2AF24206A42410088B67E /* MapKit.framework */,
 			);
@@ -152,6 +167,22 @@
 				52D92C372067C74500073F16 /* ServicesViewController.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		52DB3132207F5C950023864D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		52DB3133207F5CE50023864D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				522A8D062066469800A3A3AB /* Main.storyboard */,
+				522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		52E4F0F62073B6240022A555 /* Social Links */ = {
@@ -213,6 +244,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
@@ -263,6 +297,7 @@
 				52E4F0F82073C37F0022A555 /* SocialLinkTableViewController.swift in Sources */,
 				52EF12AA206CDECB008B589B /* PortfolioCollectionViewController.swift in Sources */,
 				52E4F0FA2073C3C40022A555 /* SocialLinkTableViewCell.swift in Sources */,
+				521B57A520820BF800BD7719 /* ChatRoomViewController.swift in Sources */,
 				52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */,
 				52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */,
 				52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */,

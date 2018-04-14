@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Foundation
+import Messages
+
+
 
 class ClientChatViewController: UIViewController {
 
@@ -14,8 +18,9 @@ class ClientChatViewController: UIViewController {
         super.viewDidLoad()
 
         
-        self.navigationItem.title = "Client Chat"
-        // Do any additional setup after loading the view.
+//    даем название navigationItem.title
+      self.navigationItem.title = "Login Page"
+      // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +28,17 @@ class ClientChatViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-
+    
+    
+    
+    @IBAction func loginAnonymDidTapped(_ sender: Any) {
+    }
+    
+    
+    
+    
+    @IBAction func loginGoogleDidTapped(_ sender: Any) {
+    }
+    
 } //end class
+

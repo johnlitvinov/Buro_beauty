@@ -12,7 +12,7 @@ import MapKit
 
 class ContactUSViewController: UIViewController {
 
-    
+//   привязка кнопок и карты
     @IBOutlet weak var mapView: MKMapView!
     
     @IBOutlet weak var button1: UIButton!
@@ -28,11 +28,11 @@ class ContactUSViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        устанавливает радиус углов имеющихся кнопок
-         button1.layer.cornerRadius = 22
-         button2.layer.cornerRadius = 22
-         button3.layer.cornerRadius = 22
-         button4.layer.cornerRadius = 22
+//    устанавливает радиус углов имеющихся кнопок
+        button1.layer.cornerRadius = 22
+        button2.layer.cornerRadius = 22
+        button3.layer.cornerRadius = 22
+        button4.layer.cornerRadius = 22
        
         
         
@@ -43,7 +43,7 @@ class ContactUSViewController: UIViewController {
         
         
         
-//        установка точки обозначения бюро на карте с надписями
+//       установка точки обозначения бюро на карте с надписями
         let pinLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
         let pinAnnatation = MKPointAnnotation()
         pinAnnatation.coordinate = pinLocation
@@ -57,7 +57,7 @@ class ContactUSViewController: UIViewController {
         self.mapView.addAnnotation(pinAnnatation)
         
     
-//    
+//    изменяем стиль  navigationItem
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
@@ -68,14 +68,14 @@ class ContactUSViewController: UIViewController {
     }
     
 
-//    присоединили кнопку и сделали переход к навигатору гугл мэмпс  для определения расстояния
+//    присоединили кнопку и сделали переход на сайт к навигатору гугл мэмпс для определения расстояния
     @IBAction func directions(_ sender: Any) {
         
         UIApplication.shared.open(URL(string: "http:maps.google.com/maps?daddr=\(latitude),\(longitude)")!, options:[:], completionHandler: nil)
     }
     
     
-//    связаться с бюро
+//    связаться с бюро по телефону
     @IBAction func callUs(_ sender: Any) {
         
         UIApplication.shared.open(URL(string: "tel://+375296591807")!, options: [:], completionHandler: nil)

@@ -14,17 +14,16 @@ class SocialLinkTableViewController: UITableViewController {
     var socialImageList = ["Insta_icon_logo"]
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+//   изменяем стиль  navigationItem
     self.navigationItem.title = "Social Links"
     self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
-//         Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-//         self.navigationItem.rightBarButtonItem = self.editButtonItem
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,11 +46,8 @@ class SocialLinkTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SocialLinkTableViewCell
-
         // Configure the cell...
-
         cell.cellImage.image = UIImage(named: socialImageList[indexPath.row])
-        
         return cell
     }
  
