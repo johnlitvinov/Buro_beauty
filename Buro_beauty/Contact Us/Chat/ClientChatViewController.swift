@@ -8,8 +8,9 @@
 
 import UIKit
 import Foundation
-import Messages
-
+import Firebase
+import FirebaseAuth
+import GoogleSignIn
 
 
 class ClientChatViewController: UIViewController {
@@ -32,12 +33,27 @@ class ClientChatViewController: UIViewController {
     
     
     @IBAction func loginAnonymDidTapped(_ sender: Any) {
+    
+// аутентификация
+
+      
+        
+// при нажатии на кнопку LoginAnon осуществляем  преход с LoginView к NavigationVC
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let naviVC = storyboard.instantiateViewController(withIdentifier: "NavigationVC") as! UINavigationController
+     let appDelegate = UIApplication.shared.delegate as! AppDelegate
+     appDelegate.window?.rootViewController = naviVC
     }
     
     
     
     
     @IBAction func loginGoogleDidTapped(_ sender: Any) {
+   
+        Auth.auth().signInAnonymously() { (user, error) in
+            let isAnonymous = user!.isAnonymous  // true
+            let uid = user!.uid
+        }
     }
     
 } //end class

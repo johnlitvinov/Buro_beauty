@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46EC7D68EF7C0C4CCBA2841D /* Pods_Buro_beauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D270C2D3ABEB91B713394F8 /* Pods_Buro_beauty.framework */; };
 		52179D0B207B3898008B9340 /* GeosansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52179D0A207B3896008B9340 /* GeosansLight.ttf */; };
 		52179D0D207B38B5008B9340 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */; };
 		521831532070E75D0009487A /* ClientChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521831522070E75D0009487A /* ClientChatViewController.swift */; };
@@ -23,6 +24,7 @@
 		52A0A8BC2078F3420048BE91 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */; };
 		52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */; };
 		52B2AF25206A42410088B67E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2AF24206A42410088B67E /* MapKit.framework */; };
+		52CD2677208379D600CD6E56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52CD2676208379D500CD6E56 /* GoogleService-Info.plist */; };
 		52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C332067C70F00073F16 /* ServicesTableViewController.swift */; };
 		52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C352067C72800073F16 /* ServicesTableViewCell.swift */; };
 		52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D92C372067C74500073F16 /* ServicesViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05687CAB5AFAC18C85E5BABC /* Pods-Buro_beauty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buro_beauty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Buro_beauty/Pods-Buro_beauty.release.xcconfig"; sourceTree = "<group>"; };
+		2D270C2D3ABEB91B713394F8 /* Pods_Buro_beauty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buro_beauty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52179D0A207B3896008B9340 /* GeosansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeosansLight.ttf; sourceTree = "<group>"; };
 		52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
 		521831522070E75D0009487A /* ClientChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientChatViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 		52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
 		52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
 		52B2AF24206A42410088B67E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52CD2676208379D500CD6E56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		52D92C332067C70F00073F16 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
 		52D92C352067C72800073F16 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
 		52D92C372067C74500073F16 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
 		52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
 		52EF12CF206E30A2008B589B /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		A81E6F3D5B7634A8A8A1BB95 /* Pods-Buro_beauty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buro_beauty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buro_beauty/Pods-Buro_beauty.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 				52E6C1A6207F73ED00C014CF /* Messages.framework in Frameworks */,
 				52183157207378BA0009487A /* MessageUI.framework in Frameworks */,
 				52B2AF25206A42410088B67E /* MapKit.framework in Frameworks */,
+				46EC7D68EF7C0C4CCBA2841D /* Pods_Buro_beauty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +102,7 @@
 				522A8D012066469800A3A3AB /* Buro_beauty */,
 				522A8D002066469800A3A3AB /* Products */,
 				52B2AF23206A42410088B67E /* Frameworks */,
+				F45063EAAF8075F47DF380DB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +130,7 @@
 				522A8D0C2066469800A3A3AB /* Assets.xcassets */,
 				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
 				522A8D112066469800A3A3AB /* Info.plist */,
+				52CD2676208379D500CD6E56 /* GoogleService-Info.plist */,
 				52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */,
 				52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */,
 				52179D0A207B3896008B9340 /* GeosansLight.ttf */,
@@ -155,6 +164,7 @@
 				52E6C1A5207F73ED00C014CF /* Messages.framework */,
 				52183156207378BA0009487A /* MessageUI.framework */,
 				52B2AF24206A42410088B67E /* MapKit.framework */,
+				2D270C2D3ABEB91B713394F8 /* Pods_Buro_beauty.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,6 +220,15 @@
 			path = "About Us";
 			sourceTree = "<group>";
 		};
+		F45063EAAF8075F47DF380DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81E6F3D5B7634A8A8A1BB95 /* Pods-Buro_beauty.debug.xcconfig */,
+				05687CAB5AFAC18C85E5BABC /* Pods-Buro_beauty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 522A8D142066469800A3A3AB /* Build configuration list for PBXNativeTarget "Buro_beauty" */;
 			buildPhases = (
+				16BCDE8B0BB91CF880810FD3 /* [CP] Check Pods Manifest.lock */,
 				522A8CFB2066469800A3A3AB /* Sources */,
 				522A8CFC2066469800A3A3AB /* Frameworks */,
 				522A8CFD2066469800A3A3AB /* Resources */,
+				314C639C13E72F893C348CBD /* [CP] Embed Pods Frameworks */,
+				E6E357B47031E0D0D9B67559 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52179D0B207B3898008B9340 /* GeosansLight.ttf in Resources */,
+				52CD2677208379D600CD6E56 /* GoogleService-Info.plist in Resources */,
 				52A0A8B62078F30D0048BE91 /* Spring In My Step.ttf in Resources */,
 				522A8D102066469800A3A3AB /* LaunchScreen.storyboard in Resources */,
 				522A8D0D2066469800A3A3AB /* Assets.xcassets in Resources */,
@@ -288,6 +311,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16BCDE8B0BB91CF880810FD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Buro_beauty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		314C639C13E72F893C348CBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Buro_beauty/Pods-Buro_beauty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buro_beauty/Pods-Buro_beauty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E357B47031E0D0D9B67559 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Buro_beauty/Pods-Buro_beauty-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buro_beauty/Pods-Buro_beauty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		522A8CFB2066469800A3A3AB /* Sources */ = {
@@ -444,6 +530,7 @@
 		};
 		522A8D152066469800A3A3AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81E6F3D5B7634A8A8A1BB95 /* Pods-Buro_beauty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +546,7 @@
 		};
 		522A8D162066469800A3A3AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05687CAB5AFAC18C85E5BABC /* Pods-Buro_beauty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

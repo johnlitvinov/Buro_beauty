@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WhatsApp Image 2018-01-14 at 20.56.44" translatesAutoresizingMaskIntoConstraints="NO" id="EQu-tV-EXS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2018-01-14 at 20.56.44" translatesAutoresizingMaskIntoConstraints="NO" id="EQu-tV-EXS">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EQu-tV-EXS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a7Z-xx-fAB"/>
+                            <constraint firstItem="EQu-tV-EXS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="afV-bc-r2X"/>
+                            <constraint firstItem="EQu-tV-EXS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="fdj-HQ-INF"/>
+                            <constraint firstItem="EQu-tV-EXS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kEL-wX-HeN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

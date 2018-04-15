@@ -21,7 +21,17 @@ class ChatRoomViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func logOutDidTapped(_ sender: Any) {
+       
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginVC") as! ClientChatViewController
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window?.rootViewController = loginVC
+        
+        
+    }
+    
     /*
     // MARK: - Navigation
 
