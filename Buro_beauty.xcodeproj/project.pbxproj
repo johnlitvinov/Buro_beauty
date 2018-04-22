@@ -10,16 +10,15 @@
 		46EC7D68EF7C0C4CCBA2841D /* Pods_Buro_beauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D270C2D3ABEB91B713394F8 /* Pods_Buro_beauty.framework */; };
 		52179D0B207B3898008B9340 /* GeosansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52179D0A207B3896008B9340 /* GeosansLight.ttf */; };
 		52179D0D207B38B5008B9340 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */; };
-		521831532070E75D0009487A /* ClientChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521831522070E75D0009487A /* ClientChatViewController.swift */; };
 		5218315520735EE00009487A /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218315420735EE00009487A /* EmailViewController.swift */; };
 		52183157207378BA0009487A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52183156207378BA0009487A /* MessageUI.framework */; };
-		521B57A520820BF800BD7719 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B57A420820BF800BD7719 /* ChatRoomViewController.swift */; };
 		522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D022066469800A3A3AB /* AppDelegate.swift */; };
 		522A8D052066469800A3A3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D042066469800A3A3AB /* ViewController.swift */; };
 		522A8D082066469800A3A3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D062066469800A3A3AB /* Main.storyboard */; };
 		522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */; };
 		522A8D0D2066469800A3A3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0C2066469800A3A3AB /* Assets.xcassets */; };
 		522A8D102066469800A3A3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */; };
+		522F20C8208A1B100091859D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F20C7208A1B100091859D /* ChatViewController.swift */; };
 		52A0A8B62078F30D0048BE91 /* Spring In My Step.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */; };
 		52A0A8BC2078F3420048BE91 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */; };
 		52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */; };
@@ -42,10 +41,8 @@
 		2D270C2D3ABEB91B713394F8 /* Pods_Buro_beauty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buro_beauty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52179D0A207B3896008B9340 /* GeosansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeosansLight.ttf; sourceTree = "<group>"; };
 		52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
-		521831522070E75D0009487A /* ClientChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientChatViewController.swift; sourceTree = "<group>"; };
 		5218315420735EE00009487A /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		52183156207378BA0009487A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		521B57A420820BF800BD7719 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
 		522A8CFF2066469800A3A3AB /* Buro_beauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buro_beauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A8D022066469800A3A3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		522A8D042066469800A3A3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +51,7 @@
 		522A8D0C2066469800A3A3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522A8D0F2066469800A3A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522A8D112066469800A3A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F20C7208A1B100091859D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spring In My Step.ttf"; sourceTree = "<group>"; };
 		52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
 		52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
@@ -87,15 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		521B57A120820A4100BD7719 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-				521831522070E75D0009487A /* ClientChatViewController.swift */,
-				521B57A420820BF800BD7719 /* ChatRoomViewController.swift */,
-			);
-			path = Chat;
-			sourceTree = "<group>";
-		};
 		522A8CF62066469800A3A3AB = {
 			isa = PBXGroup;
 			children = (
@@ -118,23 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				52DB3133207F5CE50023864D /* View */,
-				52E4F0FD2074DACD0022A555 /* Home page */,
-				522A8D022066469800A3A3AB /* AppDelegate.swift */,
-				522A8D042066469800A3A3AB /* ViewController.swift */,
+				52E4F0FD2074DACD0022A555 /* Main page */,
 				52EF12CE206E2FF5008B589B /* About Us */,
 				529C8F6C206AC58000634BEC /* Portfolio */,
 				52B2AF20206A3ED80088B67E /* Contact Us */,
 				52D92C322067C6BE00073F16 /* Services */,
 				52E4F0F62073B6240022A555 /* Social Links */,
 				52DB3132207F5C950023864D /* SupportingFiles */,
-				522A8D0C2066469800A3A3AB /* Assets.xcassets */,
-				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
 				522A8D112066469800A3A3AB /* Info.plist */,
-				52CD2676208379D500CD6E56 /* GoogleService-Info.plist */,
-				52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */,
-				52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */,
-				52179D0A207B3896008B9340 /* GeosansLight.ttf */,
-				52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */,
 			);
 			path = Buro_beauty;
 			sourceTree = "<group>";
@@ -153,7 +133,7 @@
 			children = (
 				52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */,
 				5218315420735EE00009487A /* EmailViewController.swift */,
-				521B57A120820A4100BD7719 /* Chat */,
+				52FA67B32088AE8200D60DD7 /* ChatApp */,
 			);
 			path = "Contact Us";
 			sourceTree = "<group>";
@@ -182,6 +162,13 @@
 		52DB3132207F5C950023864D /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				522A8D0C2066469800A3A3AB /* Assets.xcassets */,
+				52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */,
+				52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */,
+				52179D0A207B3896008B9340 /* GeosansLight.ttf */,
+				52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */,
+				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
+				52CD2676208379D500CD6E56 /* GoogleService-Info.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -205,11 +192,13 @@
 			path = "Social Links";
 			sourceTree = "<group>";
 		};
-		52E4F0FD2074DACD0022A555 /* Home page */ = {
+		52E4F0FD2074DACD0022A555 /* Main page */ = {
 			isa = PBXGroup;
 			children = (
+				522A8D022066469800A3A3AB /* AppDelegate.swift */,
+				522A8D042066469800A3A3AB /* ViewController.swift */,
 			);
-			path = "Home page";
+			path = "Main page";
 			sourceTree = "<group>";
 		};
 		52EF12CE206E2FF5008B589B /* About Us */ = {
@@ -218,6 +207,14 @@
 				52EF12CF206E30A2008B589B /* AboutUsViewController.swift */,
 			);
 			path = "About Us";
+			sourceTree = "<group>";
+		};
+		52FA67B32088AE8200D60DD7 /* ChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				522F20C7208A1B100091859D /* ChatViewController.swift */,
+			);
+			path = ChatApp;
 			sourceTree = "<group>";
 		};
 		F45063EAAF8075F47DF380DB /* Pods */ = {
@@ -341,6 +338,10 @@
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -348,6 +349,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,18 +388,17 @@
 				52E4F0F82073C37F0022A555 /* SocialLinkTableViewController.swift in Sources */,
 				52EF12AA206CDECB008B589B /* PortfolioCollectionViewController.swift in Sources */,
 				52E4F0FA2073C3C40022A555 /* SocialLinkTableViewCell.swift in Sources */,
-				521B57A520820BF800BD7719 /* ChatRoomViewController.swift in Sources */,
 				52D92C382067C74500073F16 /* ServicesViewController.swift in Sources */,
 				52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */,
 				52D92C362067C72800073F16 /* ServicesTableViewCell.swift in Sources */,
 				522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */,
-				521831532070E75D0009487A /* ClientChatViewController.swift in Sources */,
 				52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */,
 				5218315520735EE00009487A /* EmailViewController.swift in Sources */,
 				522A8D052066469800A3A3AB /* ViewController.swift in Sources */,
 				522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */,
 				52EF12D0206E30A2008B589B /* AboutUsViewController.swift in Sources */,
 				52EF12AC206CDF09008B589B /* PortfolioCollectionViewCell.swift in Sources */,
+				522F20C8208A1B100091859D /* ChatViewController.swift in Sources */,
 				52E4F0FC2073D2B70022A555 /* SocialLinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

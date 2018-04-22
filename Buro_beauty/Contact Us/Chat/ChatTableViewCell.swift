@@ -1,17 +1,19 @@
 //
-//  SocialLinkTableViewCell.swift
+//  ChatTableViewCell.swift
 //  Buro_beauty
 //
-//  Created by Ivan Litvinov on 4/3/18.
+//  Created by Ivan Litvinov on 4/19/18.
 //  Copyright © 2018 Ivan Litvinov. All rights reserved.
 //
 
 import UIKit
 
-class SocialLinkTableViewCell: UITableViewCell {
+class ChatTableViewCell: UITableViewCell {
 
-
-    @IBOutlet weak var cellImage: UIImageView!
+    @IBOutlet weak var clientLabelName: UILabel!
+    
+    
+    @IBOutlet weak var textchat: UITextView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,7 +22,8 @@ class SocialLinkTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+
         // Configure the view for the selected state
     }
 
-} //end class
+}

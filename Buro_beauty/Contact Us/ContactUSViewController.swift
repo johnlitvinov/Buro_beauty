@@ -9,41 +9,36 @@
 import UIKit
 import MapKit
 
-
 class ContactUSViewController: UIViewController {
-
-//   привязка кнопок и карты
-    @IBOutlet weak var mapView: MKMapView!
     
+    //   snap buttons and maps
+    @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
     @IBOutlet weak var button4: UIButton!
     
-//    кординаты Buro_beauty
+    //    coordinates Buro_beauty
     var latitude = 53.932746
     var longitude = 27.654987
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//    устанавливает радиус углов имеющихся кнопок
+        
+    //    sets the corner radius of the buttons
         button1.layer.cornerRadius = 22
         button2.layer.cornerRadius = 22
         button3.layer.cornerRadius = 22
-        button4.layer.cornerRadius = 22
-       
         
-        
-//        маштаб на карте
+    
+    //   the scale on the map
         let screenSizeOfMap = MKCoordinateSpanMake(0.022, 0.022)
         let region = MKCoordinateRegion(center:CLLocationCoordinate2D(latitude: latitude, longitude: longitude), span: screenSizeOfMap)
         mapView.setRegion(region, animated: true)
         
         
-        
-//       установка точки обозначения бюро на карте с надписями
+    //   design point
         let pinLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
         let pinAnnatation = MKPointAnnotation()
         pinAnnatation.coordinate = pinLocation
@@ -56,33 +51,21 @@ class ContactUSViewController: UIViewController {
         pinAnnatation.subtitle = "Street K.Turovskogo 6, room 146 Minsk, Belarus"
         self.mapView.addAnnotation(pinAnnatation)
         
-    
-//    изменяем стиль  navigationItem
+        
+    //    style of navigationItem
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
     
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-
-//    присоединили кнопку и сделали переход на сайт к навигатору гугл мэмпс для определения расстояния
+    //    make the transition to the site to Google maps Navigator to determine the distance
     @IBAction func directions(_ sender: Any) {
-        
         UIApplication.shared.open(URL(string: "http:maps.google.com/maps?daddr=\(latitude),\(longitude)")!, options:[:], completionHandler: nil)
     }
     
-    
-//    связаться с бюро по телефону
+    //    make a call
     @IBAction func callUs(_ sender: Any) {
-        
         UIApplication.shared.open(URL(string: "tel://+375296591807")!, options: [:], completionHandler: nil)
     }
     
     
-
-   
-
 }  //end class

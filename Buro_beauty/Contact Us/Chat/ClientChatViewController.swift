@@ -13,29 +13,35 @@ import FirebaseAuth
 import GoogleSignIn
 
 
-class ClientChatViewController: UIViewController {
+class ClientChatViewController: UIViewController, GIDSignInUIDelegate {
 
+    
+
+    
      override func viewDidLoad() {
         super.viewDidLoad()
 
+//    GIDSignIn.sharedInstance().clientID = "148379467141-nn4j772ijpo1m3rr5rc7pots0064dpo6.apps.googleusercontent.com"
+//    GIDSignIn.sharedInstance().uiDelegate = self
+//
+        
         
 //    даем название navigationItem.title
       self.navigationItem.title = "Login Page"
       // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
+
     
     
     @IBAction func loginAnonymDidTapped(_ sender: Any) {
     
 // аутентификация
 
+        Auth.auth().signInAnonymously() { (user, error) in
+            let isAnonymous = user!.isAnonymous  // true
+            let uid = user!.uid
+        }
       
         
 // при нажатии на кнопку LoginAnon осуществляем  преход с LoginView к NavigationVC
@@ -47,14 +53,11 @@ class ClientChatViewController: UIViewController {
     
     
     
-    
-    @IBAction func loginGoogleDidTapped(_ sender: Any) {
-   
-        Auth.auth().signInAnonymously() { (user, error) in
-            let isAnonymous = user!.isAnonymous  // true
-            let uid = user!.uid
-        }
-    }
-    
+//
+//    @IBAction func loginGoogleDidTapped(_ sender: Any) {
+//        print("hi")
+//       GIDSignIn.sharedInstance().signIn()
+//    }
+//
 } //end class
 
