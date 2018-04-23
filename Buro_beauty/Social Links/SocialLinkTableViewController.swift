@@ -14,7 +14,11 @@ class SocialLinkTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+     configeView()
+    }
+        
+    
+    func configeView() {
 //   navigationItem style
     self.navigationItem.title = "Social Links"
     self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)

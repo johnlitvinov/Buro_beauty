@@ -13,12 +13,11 @@
 		5218315520735EE00009487A /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218315420735EE00009487A /* EmailViewController.swift */; };
 		52183157207378BA0009487A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52183156207378BA0009487A /* MessageUI.framework */; };
 		522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D022066469800A3A3AB /* AppDelegate.swift */; };
-		522A8D052066469800A3A3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D042066469800A3A3AB /* ViewController.swift */; };
+		522A8D052066469800A3A3AB /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D042066469800A3A3AB /* MainPageViewController.swift */; };
 		522A8D082066469800A3A3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D062066469800A3A3AB /* Main.storyboard */; };
 		522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */; };
 		522A8D0D2066469800A3A3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0C2066469800A3A3AB /* Assets.xcassets */; };
 		522A8D102066469800A3A3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */; };
-		522F20C8208A1B100091859D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F20C7208A1B100091859D /* ChatViewController.swift */; };
 		52A0A8B62078F30D0048BE91 /* Spring In My Step.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */; };
 		52A0A8BC2078F3420048BE91 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */; };
 		52B2AF22206A3F4C0088B67E /* ContactUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */; };
@@ -45,13 +44,12 @@
 		52183156207378BA0009487A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		522A8CFF2066469800A3A3AB /* Buro_beauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buro_beauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522A8D022066469800A3A3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		522A8D042066469800A3A3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		522A8D042066469800A3A3AB /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		522A8D072066469800A3A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		522A8D0A2066469800A3A3AB /* Buro_beauty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Buro_beauty.xcdatamodel; sourceTree = "<group>"; };
 		522A8D0C2066469800A3A3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522A8D0F2066469800A3A3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522A8D112066469800A3A3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		522F20C7208A1B100091859D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spring In My Step.ttf"; sourceTree = "<group>"; };
 		52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
 		52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUSViewController.swift; sourceTree = "<group>"; };
@@ -106,36 +104,34 @@
 		522A8D012066469800A3A3AB /* Buro_beauty */ = {
 			isa = PBXGroup;
 			children = (
-				52DB3133207F5CE50023864D /* View */,
-				52E4F0FD2074DACD0022A555 /* Main page */,
-				52EF12CE206E2FF5008B589B /* About Us */,
-				529C8F6C206AC58000634BEC /* Portfolio */,
-				52B2AF20206A3ED80088B67E /* Contact Us */,
-				52D92C322067C6BE00073F16 /* Services */,
+				52DB3133207F5CE50023864D /* Resources */,
+				52E4F0FD2074DACD0022A555 /* Main Page */,
+				52EF12CE206E2FF5008B589B /* About Us Page */,
+				529C8F6C206AC58000634BEC /* Portfolio Page */,
+				52B2AF20206A3ED80088B67E /* Contact Us Page */,
+				52D92C322067C6BE00073F16 /* Services Page */,
 				52E4F0F62073B6240022A555 /* Social Links */,
 				52DB3132207F5C950023864D /* SupportingFiles */,
-				522A8D112066469800A3A3AB /* Info.plist */,
 			);
 			path = Buro_beauty;
 			sourceTree = "<group>";
 		};
-		529C8F6C206AC58000634BEC /* Portfolio */ = {
+		529C8F6C206AC58000634BEC /* Portfolio Page */ = {
 			isa = PBXGroup;
 			children = (
 				52EF12A9206CDECB008B589B /* PortfolioCollectionViewController.swift */,
 				52EF12AB206CDF09008B589B /* PortfolioCollectionViewCell.swift */,
 			);
-			path = Portfolio;
+			path = "Portfolio Page";
 			sourceTree = "<group>";
 		};
-		52B2AF20206A3ED80088B67E /* Contact Us */ = {
+		52B2AF20206A3ED80088B67E /* Contact Us Page */ = {
 			isa = PBXGroup;
 			children = (
 				52B2AF21206A3F4C0088B67E /* ContactUSViewController.swift */,
 				5218315420735EE00009487A /* EmailViewController.swift */,
-				52FA67B32088AE8200D60DD7 /* ChatApp */,
 			);
-			path = "Contact Us";
+			path = "Contact Us Page";
 			sourceTree = "<group>";
 		};
 		52B2AF23206A42410088B67E /* Frameworks */ = {
@@ -149,37 +145,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		52D92C322067C6BE00073F16 /* Services */ = {
+		52C302A7208D03D800A3E0E7 /* Fronts */ = {
+			isa = PBXGroup;
+			children = (
+				52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */,
+				52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */,
+				52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */,
+				52179D0A207B3896008B9340 /* GeosansLight.ttf */,
+			);
+			path = Fronts;
+			sourceTree = "<group>";
+		};
+		52D92C322067C6BE00073F16 /* Services Page */ = {
 			isa = PBXGroup;
 			children = (
 				52D92C332067C70F00073F16 /* ServicesTableViewController.swift */,
 				52D92C352067C72800073F16 /* ServicesTableViewCell.swift */,
 				52D92C372067C74500073F16 /* ServicesViewController.swift */,
 			);
-			path = Services;
+			path = "Services Page";
 			sourceTree = "<group>";
 		};
 		52DB3132207F5C950023864D /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				522A8D112066469800A3A3AB /* Info.plist */,
 				522A8D0C2066469800A3A3AB /* Assets.xcassets */,
-				52A0A8B52078F30B0048BE91 /* Spring In My Step.ttf */,
-				52A0A8BB2078F3400048BE91 /* CaviarDreams_BoldItalic.ttf */,
-				52179D0A207B3896008B9340 /* GeosansLight.ttf */,
-				52179D0C207B38B4008B9340 /* Comfortaa-Light.ttf */,
 				522A8D092066469800A3A3AB /* Buro_beauty.xcdatamodeld */,
 				52CD2676208379D500CD6E56 /* GoogleService-Info.plist */,
+				52C302A7208D03D800A3E0E7 /* Fronts */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
-		52DB3133207F5CE50023864D /* View */ = {
+		52DB3133207F5CE50023864D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				522A8D062066469800A3A3AB /* Main.storyboard */,
 				522A8D0E2066469800A3A3AB /* LaunchScreen.storyboard */,
 			);
-			path = View;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		52E4F0F62073B6240022A555 /* Social Links */ = {
@@ -192,29 +197,21 @@
 			path = "Social Links";
 			sourceTree = "<group>";
 		};
-		52E4F0FD2074DACD0022A555 /* Main page */ = {
+		52E4F0FD2074DACD0022A555 /* Main Page */ = {
 			isa = PBXGroup;
 			children = (
 				522A8D022066469800A3A3AB /* AppDelegate.swift */,
-				522A8D042066469800A3A3AB /* ViewController.swift */,
+				522A8D042066469800A3A3AB /* MainPageViewController.swift */,
 			);
-			path = "Main page";
+			path = "Main Page";
 			sourceTree = "<group>";
 		};
-		52EF12CE206E2FF5008B589B /* About Us */ = {
+		52EF12CE206E2FF5008B589B /* About Us Page */ = {
 			isa = PBXGroup;
 			children = (
 				52EF12CF206E30A2008B589B /* AboutUsViewController.swift */,
 			);
-			path = "About Us";
-			sourceTree = "<group>";
-		};
-		52FA67B32088AE8200D60DD7 /* ChatApp */ = {
-			isa = PBXGroup;
-			children = (
-				522F20C7208A1B100091859D /* ChatViewController.swift */,
-			);
-			path = ChatApp;
+			path = "About Us Page";
 			sourceTree = "<group>";
 		};
 		F45063EAAF8075F47DF380DB /* Pods */ = {
@@ -394,11 +391,10 @@
 				522A8D0B2066469800A3A3AB /* Buro_beauty.xcdatamodeld in Sources */,
 				52D92C342067C70F00073F16 /* ServicesTableViewController.swift in Sources */,
 				5218315520735EE00009487A /* EmailViewController.swift in Sources */,
-				522A8D052066469800A3A3AB /* ViewController.swift in Sources */,
+				522A8D052066469800A3A3AB /* MainPageViewController.swift in Sources */,
 				522A8D032066469800A3A3AB /* AppDelegate.swift in Sources */,
 				52EF12D0206E30A2008B589B /* AboutUsViewController.swift in Sources */,
 				52EF12AC206CDF09008B589B /* PortfolioCollectionViewCell.swift in Sources */,
-				522F20C8208A1B100091859D /* ChatViewController.swift in Sources */,
 				52E4F0FC2073D2B70022A555 /* SocialLinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,7 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ADBC58C5EM;
-				INFOPLIST_FILE = Buro_beauty/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Buro_beauty/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Notes.Buro-beauty";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,7 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ADBC58C5EM;
-				INFOPLIST_FILE = Buro_beauty/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Buro_beauty/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Notes.Buro-beauty";
 				PRODUCT_NAME = "$(TARGET_NAME)";

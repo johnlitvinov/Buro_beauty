@@ -17,8 +17,13 @@ class SocialLinkViewController: UIViewController, UIWebViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-     //    switching to instagram
+   
+        configeView()
+    }
+  
+    
+    func configeView(){
+    //    switching to instagram
         let url = URL(string: "https://www.instagram.com/buro_beauty_/")
         let request = URLRequest(url: url!)
         webView.loadRequest(request)
@@ -29,7 +34,7 @@ class SocialLinkViewController: UIViewController, UIWebViewDelegate{
     
     //    start of work actInd
     func webViewDidStartLoad(_ webView: UIWebView) {
-        actInd.color = .black // делаем цвет индикатора черным
+        actInd.color = .black // make the indicator color black
         actInd.startAnimating()
     }
     
